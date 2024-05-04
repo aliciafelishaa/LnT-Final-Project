@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pudding Fest</title>
+    <link rel="stylesheet" href="style_css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-container">
+        <span class="title-nav">Pudding Fest</span>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index_event.html">Event Page</a>
+          </li>
+          <li>
+            <a href="index_contactus.html">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="title-main">Event Details</div>
+
+      <div class="carousel-title">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+
+          <div class="carousel-inner" style="display: flex">
+            <div class="carousel-item active" style="width: 35rem">
+              <img
+                src="Asset/CompanyFest.jpg"
+                class="d-block w-100"
+                alt="Company Fest"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Company Fest</h5>
+              </div>
+            </div>
+
+            <div class="carousel-item" style="width: 35rem">
+              <img
+                src="Asset/CP.jpg"
+                class="d-block w-100"
+                alt="Competitive Programming"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Competitive Programming</h5>
+              </div>
+            </div>
+
+            <div class="carousel-item" style="width: 35rem">
+              <img
+                src="Asset/DataAnalytics.jpg"
+                class="d-block w-100"
+                alt="Data Analytics"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Data Analytics</h5>
+              </div>
+            </div>
+
+            <div class="carousel-item" style="width: 35rem">
+              <img
+                src="Asset/Hackathon.jpg"
+                class="d-block w-100"
+                alt="Hackathon"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Hackathon</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <section>
+        <div class="subtitle-judul">Timeline</div>
+
+        <div class="content-timeline">
+          <div class="left-content">
+            <img
+              src="Asset/Hackathon.jpg"
+              alt=""
+              style="width: 25rem; height: 15rem"
+            />
+            <div class="content-nama">
+              <div class="title-event">Hackathon</div>
+              <p class="desc-event">20-23 June 2023</p>
+              <p class="text-desc-event"><a href="">Detail Event </a></p>
+            </div>
+          </div>
+
+          <div class="left-content">
+            <img
+              src="Asset/CP.jpg"
+              alt=""
+              style="width: 25rem; height: 15rem"
+            />
+            <div class="content-nama">
+              <div class="title-event">Competitive Programming</div>
+              <p class="desc-event">25-27 June 2023</p>
+              <p class="text-desc-event"><a href="">Detail Event </a></p>
+            </div>
+          </div>
+
+          <div class="left-content">
+            <img
+              src="Asset/CompanyFest.jpg"
+              alt=""
+              style="width: 25rem; height: 15rem"
+            />
+            <div class="content-nama">
+              <div class="title-event">Company Fest</div>
+              <p class="desc-event">20-30 June 2023</p>
+              <p class="text-desc-event"><a href="">Detail Event </a></p>
+            </div>
+          </div>
+
+          <div class="left-content">
+            <img
+              src="Asset/DataAnalytics.jpg"
+              alt=""
+              style="width: 25rem; height: 15rem"
+            />
+            <div class="content-nama">
+              <div class="title-event">Data Analytics</div>
+              <p class="desc-event">27 June 2024</p>
+              <p class="text-desc-event"><a href="">Detail Event </a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="subtitle-judul">Register Form</div>
+
+        <div class="container-regist">
+          <div class="text-register">
+            <p class="text-wht">
+              What <br />Are <br />
+              You <br />
+              Waiting <br />
+              For?
+            </p>
+            <p class="text-grn">Register Now!</p>
+          </div>
+
+          <div class="cont-box">
+            <form id="registrationForm" action="proses_form.php" method="POST">
+              <div class="title-form">
+                <div class="blck-form" id="name">Name</div>
+                <div class="red-form">*</div>
+              </div>
+              <div class="box-cont">
+                <input
+                  type="text"
+                  id="nameInput"
+                  class="box-container-input"
+                  placeholder="Alicia Felisha"
+                  required
+                />
+              </div>
+
+              <div class="title-form">
+                <div class="blck-form">Team Name</div>
+                <div class="red-form">*</div>
+              </div>
+              <div class="box-cont">
+                <input
+                  type="text"
+                  id="teamInput"
+                  class="box-container-input"
+                  placeholder="Chipi Chapa Teams"
+                  required
+                />
+              </div>
+
+              <div class="title-form">
+                <div class="blck-form" id="email">Email</div>
+                <div class="red-form">*</div>
+              </div>
+              <div class="box-cont">
+                <input
+                  type="email"
+                  id="emailInput"
+                  class="box-container-input"
+                  placeholder="chipi@gmail.com"
+                  required
+                />
+              </div>
+
+              <div class="title-form">
+                <div class="blck-form">Phone Number</div>
+                <div class="red-form">*</div>
+              </div>
+              <div class="box-cont">
+                <input
+                  type="tel"
+                  id="phoneInput"
+                  class="box-container-input"
+                  placeholder="0889 7263 1912"
+                  required
+                />
+              </div>
+
+              <div class="title-form">
+                <div class="blck-form">Competition</div>
+                <div class="red-form">*</div>
+              </div>
+              <div class="dropdown">
+                <select id="competitionSelect" class="form-select">
+                  <option value="" selected disabled>Select</option>
+                  <option value="Hackathon">Hackathon</option>
+                  <option value="Competitive Programming">
+                    Competitive Programming
+                  </option>
+                  <option value="Company Fest">Company Fest</option>
+                  <option value="Data Analytics">Data Analytics</option>
+                </select>
+              </div>
+
+              <div class="button-submit">
+                <input type="submit" class="btn-submit" value="Register Now" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contactus-footer">Contact Us</div>
+
+      <div class="footer-content">
+        <div class="footer-subcontent">
+          <a href="">
+            <img src="Asset/ig-icon.svg" alt="" />
+          </a>
+        </div>
+        <div class="footer-subcontent">
+          <a href="">
+            <img src="Asset/fb-icon.svg" alt="" />
+          </a>
+        </div>
+        <div class="footer-subcontent">
+          <a href="">
+            <img src="Asset/twitter-icon.svg" alt="" />
+          </a>
+        </div>
+        <div class="footer-subcontent">
+          <a href="">
+            <img src="Asset/gmail.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
